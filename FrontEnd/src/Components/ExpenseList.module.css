@@ -1,0 +1,23 @@
+ul {
+    background-color: #282d35;
+    color: white;
+    border-radius: 25px;
+    font-size: 1rem;
+  }
+  
+  li {
+    margin: 20px;
+    padding: 10px;
+  }
+  li::marker {
+    font-size: 1.5rem;
+    color: #61dafb;
+  }
+  ul button {
+    margin: 10px;
+    background-color: #d1eb41;
+    border-radius: 10px;
+  }
+  button:hover {
+    transform: scale(1.2);
+  }

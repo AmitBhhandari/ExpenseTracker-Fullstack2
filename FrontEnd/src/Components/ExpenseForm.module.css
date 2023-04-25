@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+.actualclass{
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff5a5f;
+  border-radius: 10px;
+  box-shadow: 1px 0px 15px 5px #000000;
+}
+.actualclass:hover{
+    transform: scale(1.05);
+}
+   
+
+.actualclass input {
+  width: 15rem;
+  margin: 1rem;
+}
+.inputtext {
+  width: 20%;
+  margin: 1rem;
+}
+.button {
+  width: 0.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.actualclass input:hover {
+  background-color: #d658a4;
+  border: 2px solid #a0bc1f;
+
+}
+
+.totalAmount {
+    position: relative;
+    left:45%;
+  display: inline-block;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+     background-color:#BE123C;
+     color: whitesmoke;
+     padding: 10px;
+     font-weight: bold;
+     border-radius: 5px;
+     box-shadow: 1px 0px 15px 5px #000000;
+}
+.totalAmount:hover{
+    background-color:#F59E0B ;
+}
