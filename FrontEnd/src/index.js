@@ -3,12 +3,15 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import ExpenseContextProvider from "./Store/ExpenseContextProvider";
 
+import ExpenseContextProvider from "./Store/ExpenseContextProvider";
+import { AuthContextProvider } from "./Store/UserAuthContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ExpenseContextProvider>
-    <App />
+    <AuthContextProvider>
+      <App />
+    </AuthContextProvider>
   </ExpenseContextProvider>
 );
 
